@@ -5,6 +5,8 @@ Dell OptiPlex 7020/9020 hackintosh stuff.
 
 # New guide can be found [here](https://zearp.github.io/OptiHack/).
 
+## October 2024 PSA: You can try to install macOS Sonoma with this fork. You will need to use Opencore Legacy patcher post install. MacOS Sonoma on Haswell CPU / GPU can contain bug, crashes ... Softwares like Adobe ( Photoshop, Premier Pro ), Logitech G Hub and more did not start. ( GPU error ).
+
 ## February 2024 PSA: Since Monterey will be the last macOS that natively supports Haswell and that it is unlikely that any security update to Montereywill break the EFI this repo will be archived until further notice.
 
 ## August 2023 PSA: Monterey is the last macOS that natively supports the Haswell platform. While it is possible to run newer versions using OCLP for now I would not recommended doing so as long as Monterey gets security updates.
@@ -15,8 +17,5 @@ Monterey will continue to receive updates and security updates for a while and r
 
 ## PSA: From the 24th of June 2021 the default SMBIOS has been changed. This means that when you update you will either have generate new serials and before doing so logout from the iMessage and Facetime apps as well as iCloud itself. Or you can of course change the SMBIOS back to iMac15,1 or iMac14,3, if you do so you'll also need edit the plist inside USBPorts.kext to match the new model. This change is done so we can install Monterey.
 
-
-
-This is a modified EFI. I've made it to install macos Sonoma. You can use it just after the instalation please use opencore legacy patcher to patch graphics.
 
 
